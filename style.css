@@ -12,12 +12,12 @@
    --white: #FEFEFE;
 
    /* Gradient trio — verde · amarelo · roxo */
-   --g-green: #4ADE80;
-   --g-yellow: #FDE68A;
-   --g-purple: #C084FC;
-   --gradient: linear-gradient(135deg, #4ADE80 0%, #FDE68A 48%, #C084FC 100%);
-   --gradient-r: linear-gradient(135deg, #C084FC 0%, #FDE68A 48%, #4ADE80 100%);
-   --gradient-h: linear-gradient(90deg, #4ADE80 0%, #FDE68A 50%, #C084FC 100%);
+   --g-green: #0059ff;
+   --g-yellow: #8ae6fd;
+   --g-purple: #a6e3ff;
+   --gradient: linear-gradient(135deg, #225dff 0%, #76d4ff 48%, #ffffff 100%);
+   --gradient-r: linear-gradient(135deg, #225dff 0%, #76d4ff  48%, #ffffff 100%);
+   --gradient-h: linear-gradient(90deg, #225dff 0%, #76d4ff  50%, #ffffff 100%);
 
    --font-serif: 'Cormorant Garamond', Georgia, serif;
    --font-sans: 'Jost', sans-serif;
@@ -595,7 +595,7 @@
 
  .hero-title .hero-title-grad {
    display: block;
-   background: linear-gradient(0deg,rgb(13, 123, 151), blue, green);
+   background: linear-gradient(180deg,rgb(99, 211, 255), blue, rgb(0, 138, 202));
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
