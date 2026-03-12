@@ -13,7 +13,7 @@
 
    /* Gradient trio — verde · amarelo · roxo */
    --g-green: #0059ff;
-   --g-yellow: #8ae6fd;
+   --g-yellow: #008fb3;
    --g-purple: #a6e3ff;
    --gradient: linear-gradient(135deg, #225dff 0%, #76d4ff 48%, #ffffff 100%);
    --gradient-r: linear-gradient(135deg, #225dff 0%, #76d4ff  48%, #ffffff 100%);
@@ -43,6 +43,8 @@
  html {
    scroll-behavior: smooth;
    font-size: 16px;
+   margin: 0px;
+   padding: 0px;
  }
 
  body {
@@ -52,9 +54,10 @@
    color: var(--ink);
    overflow-x: hidden;
    cursor: none;
-   /* custom cursor */
  }
-
+main{
+  overflow-x: hidden;
+}
  img {
    display: block;
    max-width: 100%;
@@ -1277,7 +1280,6 @@
    font-size: 80px;
    background: linear-gradient(145deg, #f5f0eb 0%, #ebe0d5 100%);
    transition: transform .8s var(--ease-out-expo);
-   /* ★ Substitua por <img src="assets/profissional.jpg" ...> */
  }
 
  .about-img-col:hover .about-img-inner {
@@ -1590,9 +1592,8 @@
    align-items: center;
    justify-content: center;
    font-size: 80px;
-   background: linear-gradient(145deg, #f0ece4, #e4dbd0);
+   background: linear-gradient(145deg, #e9e1d2, #e4dbd0);
    transition: transform .8s var(--ease-out-expo);
-   /* ★ substitua por <img ...> */
  }
 
  .process-img-wrap:hover .process-img-inner {
